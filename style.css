@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 40px);
+    grid-template-rows: repeat(4, 40px);
+    gap: 2px;
+}
+main > input {
+    background-color: #e0e0e0;
+    color: #515151;
+    border: none;
+}
+main > input:hover {
+    background-color: #f0f0f0;
+    color: #222;
+    cursor: pointer;
+}
+main > input:active {
+    background-color: #d0d0d0;
+}
